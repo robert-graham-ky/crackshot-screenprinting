@@ -6,7 +6,7 @@ import MissionContent from "../../content/MissionContent.json";
 import ProductContent from "../../content/ProductContent.json";
 import ContactContent from "../../content/ContactContent.json";
 import ShirtExample from "../../static/images/logos/CrackShot Mockup001.png";
-import CarPicture from "../../static/images/van_logo.jpg";
+import Printer from "../../static/images/press.jpg";
 import Decal from "../../static/images/logos/CrackShot Retro001.png";
 import Sweater from "../../static/images/backshirt002.jpg";
 
@@ -25,7 +25,7 @@ const Home = () => {
         title={IntroContent.title}
         content={IntroContent.text}
         button={IntroContent.button}
-        icon={ShirtExample}
+        icon={Printer}
         id="intro"
       />
       <MiddleBlock
@@ -52,7 +52,7 @@ const Home = () => {
         type="left"
         title={ProductContent.title}
         content={ProductContent.text}
-        icon={ShirtExample}
+        icon={Decal}
         id="product"
       />
       <Contact

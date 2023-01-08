@@ -18,7 +18,7 @@ export const useForm = (validate: any) => {
     event.preventDefault();
     setErrors(validate(values));
     // Your url for API
-    const url = "";
+    const url = "https://formsubmit.co/pickles40324@gmail.com";
     if (Object.keys(values).length === 3) {
       axios
         .post(url, {
